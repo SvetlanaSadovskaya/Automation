@@ -1,9 +1,11 @@
 package BaseObjects;
 
 import io.github.bonigarcia.wdm.config.DriverManagerType;
-import static io.github.bonigarcia.wdm.WebDriverManager.getInstance;
 import org.openqa.selenium.WebDriver;
+
 import java.util.Locale;
+
+import static io.github.bonigarcia.wdm.WebDriverManager.getInstance;
 
 public class DriverCreation {
     private static WebDriver driver = null;
