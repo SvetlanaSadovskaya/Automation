@@ -25,6 +25,4 @@ public class Lecture_7 extends BaseTest {
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("user-name")));
         driver.findElement(By.id("user-name")).sendKeys("Hello");
     }
-
-
 }
