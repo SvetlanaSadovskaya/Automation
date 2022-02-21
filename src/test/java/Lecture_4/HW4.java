@@ -45,7 +45,7 @@ public class HW4 {
         driver.findElement(By.name("q")).clear();
         driver.findElement(By.name("q")).sendKeys("*//*");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-        String enteredText = driver.findElement(By.id(" rcnt")).getText();
+        String enteredText = driver.findElement(By.id("rcnt")).getText();
         List<String> resultOptions = new ArrayList<>();
         resultOptions.add("Podana fraza - *//* - nie została odnaleziona.");
         resultOptions.add("Podpowiedzi:");
